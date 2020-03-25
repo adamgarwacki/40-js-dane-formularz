@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Formularz</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <form>
-            <input id="enter-name" type="text" value="napis" placeholder="">
-            <input id="enter-surname" type="text" value="" placeholder="">
-            <input id="enter-phone" type="text" value="" placeholder="123 456 789">
-        </form>
-    </div>
-    <div>
-        <button id="submit">Wyświetl dane</button>
+    <header>
+        <div id="title">FORMULARZ</div>
+    </header>
+    <form>
+        <input id="enter-name" type="text" placeholder="name...">
+        <input id="enter-surname" type="text" placeholder="surname...">
+        <input id="enter-phone" type="text" placeholder="123 456 789">
+    </form>
+    <div id="data">
+        <button id="submit">POKAŻ MOJE DANE</button>
         <div id="container">
-            <p>Dane:</p>
-            <p id="name"></p>
-            <p id="surname"></p>
-            <p id="phone"></p>
+            <div>Dane:</div>
+            <div id="name"></div>
+            <div id="surname"></div>
+            <div id="phone"></div>
         </div>
     </div>
 

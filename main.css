@@ -1,0 +1,69 @@
+* {
+    font-family: 'Sen', sans-serif;
+}
+
+body {
+    margin: 0em;
+}
+
+#title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+input {
+    margin: 0.5rem;
+    margin-left: 30%;
+    width: 40%;
+
+    text-align: center;
+    font-size: 2rem;
+
+    border-style: groove;
+}
+
+::placeholder {
+    font-style: italic;
+    color: rgb(161, 161, 161);
+}
+
+/* #data to kontener zajmujący się danymi */
+
+#data {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #submit to przycisk */
+
+#submit {
+    margin-left: 40%;
+    margin-bottom: 20px;
+    width: 20%;
+    border: none;
+    border-color: rgb(167, 167, 167);
+    background-color: rgb(202, 202, 202);
+
+    font-size: 2rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+}
+
+#container > div {
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+#container > :nth-child(1) {
+    font-size: 2.5rem;
+}
